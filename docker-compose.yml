@@ -1,0 +1,8 @@
+services:
+
+  server-auth:
+    container_name: server-auth
+    build:
+      context: .
+    ports:
+      - 8080:8080

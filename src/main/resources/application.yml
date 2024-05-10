@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: auth-client
+  profiles:
+    active: dev
+server:
+  port: ${PORT:8080}
+  servlet:
+    context-path: /api/v1
